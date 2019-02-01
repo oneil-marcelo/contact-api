@@ -20,7 +20,7 @@ Então, você pode acompanhar a evolução do projeto através dos Commits e do 
 
 ## Logbook
 
-**Dia 01**
+**Atividade 01**
 
 - Definição do escopo do projeto;
 - Criação da estrutura inicial;
