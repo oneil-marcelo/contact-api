@@ -30,3 +30,9 @@ Então, você pode acompanhar a evolução do projeto através dos Commits e do 
 
 *Criação das pastas Controllers, Data, Models, Repositories. A medida que for avançando, o objetivo de cada pasta será detalhado.*
 
+### **#2 Criação das entidades/Modelos de dados** ###
+
+*A pasta Models, criada na estrutura inicial do projeto, será usada para salvar as entidades.*
+
+*As entidades serão utilizadas como objetos de representação do banco de dados. Elas serão utilizadas tanto na criação do banco, como modelo para entrada e saída de dados da API.*
+

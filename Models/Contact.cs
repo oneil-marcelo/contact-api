@@ -12,5 +12,7 @@ namespace contact_api.Models
         public string City { get; set; }
         public string State { get; set; }
         public long ZipCode { get; set; }
+        public ContactType ContacType { get; set; }
+        public int ContactTypeId { get; set; }
     }
 }
