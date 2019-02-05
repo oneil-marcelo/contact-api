@@ -33,3 +33,10 @@ Então, você pode acompanhar a evolução do projeto através dos Commits e do 
 
 *As entidades serão utilizadas como objetos de representação do banco de dados. Elas serão utilizadas tanto na criação do banco, como modelo para entrada e saída de dados da API.*
 
+### **#03 - Fluent Map / Criação do contexto para geração do banco de dados** ###
+*Na pasta Data, foi criada a classe AppDataContext. Ela é responsável por criar o contexto para geração do banco e manipulação dos dados*
+
+*Também foi criada uma pasta Maps, onde estão as classes responsáveis por mapear as propriedades das entidades e com isso criar as tabelas no banco de dados*
+
+*Para isso foi instalado o pacote do Entity framework Core 2.1.1 => dotnet add package Microsoft.EntityFrameWork --version 2.1.1*
+
