@@ -25,6 +25,7 @@
       "contact-api/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
+          "Microsoft.AspNetCore.Mvc": "2.1.1",
           "Microsoft.EntityFrameworkCore": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0"
         },

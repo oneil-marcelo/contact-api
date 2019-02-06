@@ -40,3 +40,9 @@ Então, você pode acompanhar a evolução do projeto através dos Commits e do 
 
 *Para isso foi instalado o pacote do Entity framework Core 2.1.1 => dotnet add package Microsoft.EntityFrameWork --version 2.1.1*
 
+### **#04 - Repository Pattern / Depency Injection** ###
+*Na pasta Repositories, para cada entidade, foram criadas uma interface para assinatura dos métodos e uma classe para implementação dos metódos*
+*O contexto para implementação dos métodos foi passado via Injeção de dependência*
+*A classe STARTUP.CS, na raiz da aplicação, foi modificada e é a responsável por essa injeção de dependência.*
+
+

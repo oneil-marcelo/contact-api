@@ -10,8 +10,7 @@ namespace Contact_Api.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder OptionsBuilder)
         {
-            
-            OptionsBuilder.UseSqlServer(@"Server=<myServidor>;Database=<namemydatabase>;User ID=SA; Password=<mypassword>;");
+          OptionsBuilder.UseSqlServer(@"Server=<myServidor>;Database=<namemydatabase>;User ID=SA; Password=<mypassword>;");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
