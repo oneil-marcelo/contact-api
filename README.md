@@ -66,7 +66,7 @@ Então, você pode acompanhar a evolução do projeto através dos Commits e do 
 
 *Os métodos HTTP também foram definidos através dos decoradores [HttpGet], [HttpPost], [HttpPut] e [HttpDelete]. Os parametros de entradas serão recebidos de duas formas:*
 
-* *via url, implementando o decorador [HttpGet("{id}")] e depois sendo recuperado no método. Ex: getContactById(int id).*
+* *Via url, implementando o decorador [HttpGet("{id}")] e depois sendo recuperado no método. Ex: getContactById(int id).*
 
 * *Recebendo no corpo da página e depois recuperando no método. Ex: AddContact([FromBody] Contact model).* 
 
