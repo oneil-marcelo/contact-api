@@ -42,7 +42,32 @@ Então, você pode acompanhar a evolução do projeto através dos Commits e do 
 
 ### **#04 - Repository Pattern / Depency Injection** ###
 *Na pasta Repositories, para cada entidade, foram criadas uma interface para assinatura dos métodos e uma classe para implementação dos metódos*
+
 *O contexto para implementação dos métodos foi passado via Injeção de dependência*
+
 *A classe STARTUP.CS, na raiz da aplicação, foi modificada e é a responsável por essa injeção de dependência.*
 
 
+*Por último, foi gerado o banco de dados utilizando migrations, através da linha de comando => dotnet ef migrations add Initial.* 
+
+*Na linha de comando,  o termo Initial é o nome da migration e pode ser usado para executar downgrade, por exemplo.*
+
+### **#5 - Controllers da Api / Routes / Versionamento** ###
+
+*Assim como na pasta repositories, na pasta Controllers foi criado uma classe para cada entidade*
+
+*O repositório para implementação dos métodos foi passado via Injeção de dependência. Novamente a classe Startup.cs foi responsável*
+
+*Nessa etapa a classe STARTUP.CS foi alterada. Ela é responsável pela injeção de dependência nos controllers e também adicionar o middleware Mvc.*
+
+*Mvc foi adicionado através do comando => dotnet add package Microsoft.AspNetCore.Mvc --version 2.1.1*
+
+*As classes controllers herdam de controller e as rotas e métodos são definidos através do decorador [Route("<api/v1/[controller]")].*
+
+*Os métodos HTTP também foram definidos através dos decoradores [HttpGet], [HttpPost], [HttpPut] e [HttpDelete]. Os parametros de entradas serão recebidos de duas formas:*
+
+* *via url, implementando o decorador [HttpGet("{id}")] e depois sendo recuperado no método. Ex: getContactById(int id).*
+
+* *Recebendo no corpo da página e depois recuperando no método. Ex: AddContact([FromBody] Contact model).* 
+
+*Todos os métodos nos controllers retornam um http response*

@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace contact_api.Repositories
 {
-    public class ContactRepositoryType : IContactTypeRepository
+    public class ContactTypeRepository : IContactTypeRepository
     {
         private readonly AppDataContext _context;
 
-        public ContactRepositoryType(AppDataContext context)
+        public ContactTypeRepository(AppDataContext context)
         {
             _context = context;
         }
