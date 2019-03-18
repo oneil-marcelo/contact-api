@@ -12,10 +12,10 @@ namespace contact_api.Controllers
     {
         private readonly IContactRepository _repository;
 
-        public ContactController(IContactRepository repository)
+        public  ContactController(IContactRepository repository)
         {
         
-            _repository = repository;
+            _repository =  repository;
         
         }
 
@@ -35,6 +35,8 @@ namespace contact_api.Controllers
             }
 
         }
+
+
 
         [HttpGet]
         [Route("{id}")]

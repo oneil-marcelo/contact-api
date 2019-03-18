@@ -14,9 +14,13 @@ Aqui irei demonstrar, de forma simples e prática, uma Web API para gerenciar co
 
 ## Sobre o Código Fonte
 
-O código não está completo.
+˜˜O código não está completo.˜˜
 
-Então, você pode acompanhar a evolução do projeto através dos Commits e do logbook que será criado.
+O código está finalizado
+
+˜˜Então, você pode acompanhar a evolução do projeto através dos Commits e do logbook que será criado.˜˜
+Você pode conferir como foi a evolução do projeto através dos Commits e do logbook.
+
 
 
 ## Logbook
@@ -66,8 +70,16 @@ Então, você pode acompanhar a evolução do projeto através dos Commits e do 
 
 *Os métodos HTTP também foram definidos através dos decoradores [HttpGet], [HttpPost], [HttpPut] e [HttpDelete]. Os parametros de entradas serão recebidos de duas formas:*
 
-* *Via url, implementando o decorador [HttpGet("{id}")] e depois sendo recuperado no método. Ex: getContactById(int id).*
+*Via url, implementando o decorador [HttpGet("{id}")] e depois sendo recuperado no método. Ex: getContactById(int id).*
 
-* *Recebendo no corpo da página e depois recuperando no método. Ex: AddContact([FromBody] Contact model).* 
+*Recebendo no corpo da página e depois recuperando no método. Ex: AddContact([FromBody] Contact model).* 
 
 *Todos os métodos nos controllers retornam um http response*
+
+### **#6 - Documentação da Api** ###
+
+*Para documentar a Api, foi utilizado o Swagger*
+
+*Pacote foi instalado através da linha de comando dotnet add package Swashbuckle.AspNetCore.Swagger*
+
+*A classe STARTUP.CS foi novamente implementada para adição e uso do pacote*
