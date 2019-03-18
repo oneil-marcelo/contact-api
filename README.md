@@ -85,5 +85,6 @@ Você pode conferir como foi a evolução do projeto através dos Commits e do l
 
 *A classe STARTUP.CS foi novamente implementada para adição e uso do pacote*
 
+**Resultado final**
 ![](wwwroot/print-documentation.png)
 
