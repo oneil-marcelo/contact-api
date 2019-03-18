@@ -84,3 +84,6 @@ Você pode conferir como foi a evolução do projeto através dos Commits e do l
 *Pacote foi instalado através da linha de comando dotnet add package Swashbuckle.AspNetCore.Swagger*
 
 *A classe STARTUP.CS foi novamente implementada para adição e uso do pacote*
+
+![](wwwroot/print-documentation.png)
+
