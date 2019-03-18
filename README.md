@@ -19,6 +19,7 @@ Aqui irei demonstrar, de forma simples e prática, uma Web API para gerenciar co
 O código está finalizado
 
 ~~Então, você pode acompanhar a evolução do projeto através dos Commits e do logbook que será criado.~~
+
 Você pode conferir como foi a evolução do projeto através dos Commits e do logbook.
 
 
