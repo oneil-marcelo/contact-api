@@ -1,8 +1,6 @@
 # Contact API 
 Seja bem-vindo ao repositório Client API.
 
-Aqui irei demonstrar, de forma simples e prática, uma Web API para gerenciar contatos.
-
 ## Tecnologias Implementadas
 * AspNet.Core 2.1.4
 * Visual Studio Code
